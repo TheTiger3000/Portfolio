@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nuber Claudiu's Portfolio</title>
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="css/animate.css"/>
+  <link rel="icon" href="images/robot.ico">
+
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+<div class="svg-wrap">
+  <svg width="64" height="64" viewBox="0 0 64 64">
+    <path id="arrow-left" d="M26.667 10.667q1.104 0 1.885 0.781t0.781 1.885q0 1.125-0.792 1.896l-14.104 14.104h41.563q1.104 0 1.885 0.781t0.781 1.885-0.781 1.885-1.885 0.781h-41.563l14.104 14.104q0.792 0.771 0.792 1.896 0 1.104-0.781 1.885t-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.813-0.771-1.896t0.771-1.896l18.667-18.667q0.792-0.771 1.896-0.771z"></path>
+  </svg>
+
+  <svg width="64" height="64" viewBox="0 0 64 64">
+    <path id="arrow-right" d="M37.333 10.667q1.125 0 1.896 0.771l18.667 18.667q0.771 0.771 0.771 1.896t-0.771 1.896l-18.667 18.667q-0.771 0.771-1.896 0.771-1.146 0-1.906-0.76t-0.76-1.906q0-1.125 0.771-1.896l14.125-14.104h-41.563q-1.104 0-1.885-0.781t-0.781-1.885 0.781-1.885 1.885-0.781h41.563l-14.125-14.104q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z"></path>
+  </svg>
+</div>
+
+
+<!-- MAIN CONTENT -->
+
+<div class="container-fluid">
+
+  <!-- HEADER -->
+
+  <section id="header">
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-fixed-top navbar-default bottom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#header">Nuber Claudiu</a>
+        </div><!-- /.navbar-header -->
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Courses</a></li>
+            <li><a href="#info">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div> <!-- /.navbar-collapse -->
+      </div> <!-- /.container -->
+    </nav>
+
+    <!-- SLIDER -->
+    <div class="header-slide">
+      <section>
+        <div id="loader" class="pageload-overlay" data-opening="M 0,0 0,60 80,60 80,0 z M 80,0 40,30 0,60 40,30 z">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
+            <path d="M 0,0 0,60 80,60 80,0 Z M 80,0 80,60 0,60 0,0 Z"/>
+          </svg>
+        </div> <!-- /.pageload-overlay -->
+
+        <div class="image-slide bg-fixed">
+          <div class="overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+
+                  <div class="slider-content">
+                    <h1></h1>
+                    <p>"If you get up in the morning and think the future is going to be better, it is a bright day. Otherwise, it's not." - Elon Musk</p>
+                  </div>
+
+                </div> <!-- /.col-md-12 -->
+              </div> <!-- /.row -->
+            </div> <!-- /.container -->
+          </div> <!-- /.overlay -->
+        </div> <!-- /.image-slide -->
+
+        <nav class="nav-slide">
+          <a class="prev" href="#prev">
+              <span class="icon-wrap">
+                <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
+                  <use xlink:href="#arrow-left">
+                </svg>
+              </span>
+            <div>
+              <span>Prev Photo</span>
+              <h3>...</h3>
+              <p>...</p>
+              <img alt="Previous thumb">
+            </div>
+          </a>
+          <a class="next" href="#next">
+              <span class="icon-wrap">
+                <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
+                  <use xlink:href="#arrow-right">
+                </svg>
+              </span>
+            <div>
+              <span>Next Photo</span>
+              <h3>...</h3>
+              <p>...</p>
+              <img alt="Next thumb">
+            </div>
+          </a>
+        </nav>
+      </section>
+
+      <script type="text/javascript">
+        let dataHeader = [
+                  {
+                    bigImage :"images/slide-1.jpg",
+                    title : "Stay M⏰tivated",
+                    author : "andreafax/reddit"
+                  },
+                  {
+                    bigImage :"images/slide-2.jpg",
+                    title : "W💡rk hard",
+                    author : "glweb.eu/blog"
+                  },
+                  {
+                    bigImage :"images/slide-3.jpg",
+                    title : "Don't forget to rel🍃x",
+                    author : "wallpaperscraft.com"
+                  },
+                  {
+                    bigImage :"images/slide-4.jpg",
+                    title : "Achieve S🚪ccess",
+                    author : "nouser/reddit"
+                  }
+                ],
+                loaderSVG = new SVGLoader(document.getElementById('loader'), {speedIn : 600, speedOut : 600, easingIn : mina.easeinout});
+        loaderSVG.show()
+      </script>
+
+    </div><!-- /.header-slide -->
+  </section>
+
+  <!-- HEADER END -->
+
+
+  <!-- ABOUT -->
+
+  <section id="about" class="light">
+    <header class="title">
+      <h2>About <span>Me</span></h2>
+      <p>Highly motivated <strong>Robotics Student</strong>, passionate about <strong>technology and automation</strong>. Ready to learn something new and <strong>improve</strong> the skills step by step every day.</p>
+    </header>
+
+    <div class="container">
+      <div class="row table-row">
+        <div class="col-sm-6 hidden-xs">
+          <div class="section-content">
+            <div class="big-image" style="background-image:url(images/1.PNG)"></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="section-content">
+            <div class="about-content left animated" data-animate="fadeInLeft">
+              <div class="about-icon"><i class="fa fa-university"></i></div>
+              <div class="about-detail">
+                <h4>Education</h4>
+                <p>Fourth year student at the Technical University of Cluj-Napoca in the robotics engineering field. In this years I have studied about how to design machines, robot parts, factories, PLC automation, simulations and programming.</p>
+              </div>
+            </div>
+
+            <div class="about-content left animated" data-animate="fadeInLeft">
+              <div class="about-icon"><i class="fa fa-desktop"></i></div>
+              <div class="about-detail">
+                <h4>Usual Days</h4>
+                <p>I love to use my imagination and solve different problems. I have learnt to build a habit everyday and stick to it. Beside school hours, I like to read, watch tutorials and practice, play the guitar and sometimes watch a movie or take a walk. For the most part I am a self learner.</p>
+                <p>While we can not rely only on things learnt in school, we have to do more in some cases. I know that I am not so good at programming, still a beginner, but I will love to learn more and get better.</p>
+              </div>
+            </div>
+
+            <div class="about-content left animated" data-animate="fadeInLeft">
+              <div class="about-icon"><i class="fa fa-code"></i></div>
+              <div class="about-detail">
+                <h4>Future Vision</h4>
+                <p>My main goal is to get into the world of Automation Testing, take part in an Internship and understand how to solve real life problems to get a job in this domain. After that, I want to apply for a master degree in Automated Systems - Applied Informatics.</p>
+                <p>Later on, I want to accumulate more knowledge and expand it regarding Artificial Intelligence and Machine Learning in Robotic Systems.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.row table-row -->
+    </div> <!-- /.container -->
+  </section>
+
+
+  <!-- PORTFOLIO -->
+
+  <section id="portfolio" class="light">
+    <header class="title">
+      <h2>Portfolio</h2>
+      <p>My Portfolio is based on school and mini personal projects that helped in my development.</p>
+      <p><strong>Click on some projects for a video</strong></p>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+        <ul id="filters" class="list-inline">
+          <li data-filter="all" class="filter">All</li>
+          <li data-filter=".university" class="filter">University</li>
+          <li data-filter=".personal" class="filter">Personal</li>
+          <!--            <li data-filter=".books" class="filter">Books</li>-->
+          <!--            <li data-filter=".video" class="filter">Video</li>-->
+        </ul>
+      </div>
+
+      <div class="row">
+        <div class="container-portfolio">
+          <!-- PORTFOLIO OBJECT -->
+          <script type="text/javascript">
+            let portfolio = [
+              {
+                category : "university",
+                image : "images/mm.jpg",
+                title : "FactoryIO <span>PLC Automation</span> (🎬)",
+                link : "https://www.youtube.com/watch?v=jIPrl5JNwk4&ab",
+                text : "A complex factory with HMI and Code in TIA Portal simulated with FactoryIO"
+              },
+              {
+                category : "university",
+                image : "images/3. RobotTrainer.png",
+                title : "<span>Interactive</span> Robotic Cell",
+                link : "#none",
+                text : "Realistic 3D Model of an University sorting Robotic Cell"
+              },
+              {
+                category : "university",
+                image : "images/4. RF.png",
+                title : "<span>Chess</span> Factory (🎬)",
+                link : "https://www.youtube.com/watch?v=TyVOiXrCkbM&ab",
+                text : "Design and Simulation for a standard and premium Product."
+              },
+              {
+                category : "university",
+                image : "images/iior.jpg",
+                title : "Factory <span>HMI</span> (🎬)",
+                link : "https://www.youtube.com/watch?v=OB5U1fbrN7Y&ab",
+                text : "Mobile Interface for the Chess Factory."
+              },
+              {
+                category : "university",
+                image : "images/5. SFF.png",
+                title : "<span>SSD / RAM</span> Factory (🎬)",
+                link : "https://www.youtube.com/watch?v=lkvlCgf4I5c&ab",
+                text : "Flexible Fabrication System for 2 products."
+              },
+              {
+                category : "personal",
+                image : "images/6. AMRI.png",
+                title : "<span>Unity Motor</span> Control (🎬)",
+                link : "https://www.youtube.com/watch?v=YrrfHgA5zx8&ab",
+                text : "Virtual Motor Control using Unity and TIA Portal connecte to a server."
+              },
+              {
+                category : "personal",
+                image : "images/flight_sim.jpg",
+                title : "<span>Flight</span> Simulator (🎬)",
+                link : "https://www.youtube.com/watch?v=BthhfOGjIUc&ab",
+                text : "Stewart Platform (Parallel Robot) used in Flight Simualtors for pilots."
+              },
+              {
+                category : "personal",
+                image : "images/7. AP.png",
+                title : "Pneumatic <span>Manipulator</span>",
+                link : "#none",
+                text : "Pneumatic Manipulator Designed and Controlled in Unity and PneuAlfa from SMC"
+              }
+            ];
+          </script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TEAM -->
+
+  <section id="team" class="light">
+    <header class="title">
+      <h2>Internet <span>Courses</span></h2>
+      <p>I am a beginner programmer, that wants to develop the skills learnt and put them in practice. Here are some of the tutors that I have learnt from.</p>
+      <p>“There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning.”</p>
+      <p>-Jiddu Krishnamurti-</p>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="wrap animated" data-animate="fadeInDown">
+            <div class="img-team">
+              <img src="images/C.Bu.jpg" alt="" class="img-circle">
+            </div>
+
+            <h3>Tim Buchalka</h3>
+            <h5>Java Expert Developer</h5>
+
+            <p>Great Java course, with a lot of exercises and clear explanation. OOP seems easier now.</p>
+
+            <div class="team-social">
+              <ul class="list-inline social-list">
+                <li><a href="https://www.timbuchalka.com/" class="fa fa-link"></a></li>
+                <li><a href="https://www.udemy.com/user/timbuchalka/" class="fa fa-code"></a></li>
+                <!--                  <li><a href="#" class="fa fa-facebook"></a></li>-->
+                <!--                  <li><a href="#" class="fa fa-google-plus"></a></li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="wrap animated" data-animate="fadeInDown">
+            <div class="img-team">
+              <img src="images/C.Angela.jpg" alt="" class="img-circle">
+            </div>
+
+            <h3>Dr. Angela Yu</h3>
+            <h5>Developer and Lead Instructor</h5>
+
+            <p>Learning Python with a great 100 days bootcamp with cool small and big projects.</p>
+
+            <div class="team-social">
+              <ul class="list-inline social-list">
+                <li><a href="https://www.appbrewery.co/" class="fa fa-link"></a></li>
+                <li><a href="https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/" class="fa fa-code"></a></li>
+                <!--                  <li><a href="#" class="fa fa-facebook"></a></li>-->
+                <!--                  <li><a href="#" class="fa fa-google-plus"></a></li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="wrap animated" data-animate="fadeInDown">
+            <div class="img-team">
+              <img src="images/C.Andrei.jpg" alt="" class="img-circle">
+            </div>
+
+            <h3>Andrei Neagoie</h3>
+            <h5>Senior Software Developer</h5>
+
+            <p>Algorithms, Data Structures and SQL seems so interesting when Andrei explains them.</p>
+
+            <div class="team-social">
+              <ul class="list-inline social-list">
+                <li><a href="https://zerotomastery.io/" class="fa fa-link"></a></li>
+                <li><a href="https://www.udemy.com/user/andrei-neagoie/" class="fa fa-code"></a></li>
+                <!--                  <li><a href="#" class="fa fa-facebook"></a></li>-->
+                <!--                  <li><a href="#" class="fa fa-google-plus"></a></li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="wrap animated" data-animate="fadeInDown">
+            <div class="img-team">
+              <img src="images/C.Rahul.png" alt="" class="img-circle">
+            </div>
+
+            <h3>Rahul Shetty</h3>
+            <h5>Founder of Testing School</h5>
+
+            <p>Selenium and Frameworks course explained very good by and indian expert in testing.</p>
+
+            <div class="team-social">
+              <ul class="list-inline social-list">
+                <li><a href="https://rahulshettyacademy.com/#/index" class="fa fa-link"></a></li>
+                <li><a href="https://www.udemy.com/user/rahul445/" class="fa fa-code"></a></li>
+                <!--                  <li><a href="#" class="fa fa-facebook"></a></li>-->
+                <!--                  <li><a href="#" class="fa fa-google-plus"></a></li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /.container -->
+  </section>
+
+  <!-- INFO -->
+
+  <section id="info" class="dark">
+    <header class="title">
+      <h2><span>Skills</span></h2>
+      <p>"Skill is the unified force of experience, intellect and passion in their operation."</p>
+      <p>-John Ruskin-</p>
+    </header>
+
+    <div class="container experties">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="skill">
+            <ul class="skill-bar list-unstyled">
+              <li><span class="percentage" data-value="35%"></span><em>Unity3D</em></li>
+              <li><span class="percentage" data-value="30%"></span><em>Python</em></li>
+              <li><span class="percentage" data-value="25%"></span><em>Java</em></li>
+              <li><span class="percentage" data-value="10%"></span><em>Selenium</em></li>
+              <li><span class="percentage" data-value="10%"></span><em>SQL</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="skill">
+            <ul class="skill-bar list-unstyled">
+              <li><span class="percentage" data-value="70%"></span><em>Solidworks</em></li>
+              <li><span class="percentage" data-value="65%"></span><em>Catia</em></li>
+              <li><span class="percentage" data-value="60%"></span><em>TIA Portal</em></li>
+              <li><span class="percentage" data-value="55%"></span><em>Blender</em></li>
+              <li><span class="percentage" data-value="45%"></span><em>Illustrator</em></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /.container -->
+  </section>
+
+
+  <section class="separator blue">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="counter animated" data-animate="fadeInUp" data-delay="0">
+            <div class="counter-icon">
+              <i class="fa fa-wechat"></i>
+            </div>
+            <div class="counter-content">
+              <span class="value" data-from="0" data-to="75"></span>
+              <small>English [%]</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="counter animated" data-animate="fadeInUp" data-delay="500">
+            <div class="counter-icon">
+              <i class="fa fa-wechat"></i>
+            </div>
+            <div class="counter-content">
+              <span class="value" data-from="0" data-to="25"></span>
+              <small>German [%]</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="counter animated" data-animate="fadeInUp" data-delay="1000">
+            <div class="counter-icon">
+              <i class="fa fa-group"></i>
+            </div>
+            <div class="counter-content">
+              <span class="value" data-from="0" data-to="80"></span>
+              <small>Teamwork [%]</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="counter animated" data-animate="fadeInUp" data-delay="1500">
+            <div class="counter-icon">
+              <i class="fa fa-list"></i>
+            </div>
+            <div class="counter-content">
+              <span class="value" data-from="0" data-to="80"></span>
+              <small>Problem Solving [%]</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER CONTACT -->
+
+  <section id="contact" class="dark">
+    <header class="title">
+      <h2>Contact</h2>
+      <p>This is my contact data.</p>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 animated" data-animate="fadeInLeft">
+          <form action="mailto:nuber_claudiu13@outlook.com", method="post", enctype="form-control/plain">
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="col-md-12">
+                <textarea class="form-control" rows="3" placeholder="Feedback Input"></textarea>
+              </div>
+              <div class="col-md-12">
+                <button class="btn btn-default submit">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-4 animated" data-animate="fadeInRight">
+          <address>
+            <span><i class="fa fa-map-marker fa-lg"></i> Str. Fabricii de Zahar, Cluj-Napoca</span>
+            <span><i class="fa fa-phone fa-lg"></i> (+40) 754 516 667</span>
+            <span><i class="fa fa-envelope-o fa-lg"></i> <a action="mailto:nuber_claudiu13@outlook.com">nuber_claudiu13@outlook.com</a></span>
+            <span><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/nuber-claudiu-64277b181/">linkedin.com/in/nuber-claudiu</a></span>
+          </address>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>Template by <i class="fa fa-heart"></i> <a href="http://templatestock.co">Template Stock</a></p>
+          <p><small>IDE : WebStorm - JetBrains</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /.container-fluid -->
+
+<!-- SCRIPT -->
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
