@@ -642,7 +642,7 @@ span.quot-name:before {
 .about-content.left > .about-icon,
 .about-content.left > .about-detail {
     float: left;
-    text-align: left;
+    text-align: justify;
 }
 
 .about-content.right > .about-icon,
